@@ -17,6 +17,7 @@ while opcion_usr not in opciones:
     opcion_usr = input('Escoge entre: piedra, papel, tijera: ')
     opcion_usr = opcion_usr.lower()
 
+# Condición if para el desarrollo del juego
 if opcion_pc == opcion_usr:
     print('El computado a escogido', opcion_pc,' y tu has escogido', opcion_usr, 'por lo tanto hay un Empate')
 elif opcion_pc == 'piedra':
